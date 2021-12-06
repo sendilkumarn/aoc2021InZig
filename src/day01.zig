@@ -6,7 +6,7 @@ const parseInt = std.fmt.parseInt;
 
 const tokenize = std.mem.tokenize;
 
-const input = @embedFile("1.txt");
+const input = @embedFile("data/1.txt");
 
 pub fn main() !void {
   var count: i64 = 0;
