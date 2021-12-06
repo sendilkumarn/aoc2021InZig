@@ -11,7 +11,7 @@ const parseInt = std.fmt.parseInt;
 const tokenize = std.mem.tokenize;
 const eql = std.mem.eql;
 
-const input = @embedFile("data/4.txt");
+const input = @embedFile("data/04.txt");
 
 fn buildBoard(comptime T: type, list: [][]const u8, delim: []const u8) !ArrayList(?T) {
     var boards = ArrayList(?[5][5]?u8).init(allocator);

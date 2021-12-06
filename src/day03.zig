@@ -10,7 +10,7 @@ const parseInt = std.fmt.parseInt;
 const tokenize = std.mem.tokenize;
 const eql = std.mem.eql;
 
-const input = @embedFile("data/3.txt");
+const input = @embedFile("data/03.txt");
 
 fn formatInput() !ArrayList([]const u8) {
   var list = ArrayList([]const u8).init(allocator);

@@ -7,7 +7,7 @@ const parseInt = std.fmt.parseInt;
 const tokenize = std.mem.tokenize;
 const eql = std.mem.eql;
 
-const input = @embedFile("data/2.txt");
+const input = @embedFile("data/02.txt");
 
 pub fn main() !void {
   var lines = tokenize(input, "\n");
